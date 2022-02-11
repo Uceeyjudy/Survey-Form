@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tech Survey Form</title>
+
+</head>
+<body>
+    <h1 id="title">Tech Enthusiast Survery</h1>
+        <p id="description">
+         This Survery is to know what made you intrested in Tech. Please feel free to express yourself.
+        </p>
+        <form id="survey-form">
+          <label for="name" id="name-label">Name</lable>
+          <input id="name" type="text" placeholder="FirstName LastName" required></input>
+          <br>
+          <label for="email" id="email-label">Email</label>
+          <input id="email" type="text" placeholder="yourname@gmail.com" required></input>
+          <br>
+          <label for ="number" id="number-label">Age</label>
+          <input id="number" type="number" name="number" placeholder="18" required min="18" max="60">
+        <br>
+          <label for="dropdown">Sex</label>
+            <select id="dropdown">
+              <option value="Male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          <br>
+          <br>
+         <label for="whatAge" id="age"><br>At What Age did you pick intrest in Tech</br>
+        
+            <input id="age" type="radio" name="three">3-15years</input>
+            <label for="three"></label>
+        <br>
+        <input id="age" type="radio" name="sixteen">16-28years</input>
+            <label for="sixteen"></label>
+        <br>
+        <input id="age" type="radio" name="twentyNine">29-40years</input>
+            <label for="twentyNine"></label>
+        <br>
+        <input id="age" type="radio" name="fourthyOne">41 and Above</input>
+            <label for="fourthyOne"></label>
+        <br>
+        </label>
+        <label for="study"><br>What is your course of study?</br></label>
+          <input id="chechkbox" type="checkbox" name="study" value="Science">
+          <label for="checkbox">Science</label>
+        <br>
+        <input id="chechkbox" type="checkbox" name="study" value="Engineering">
+          <label for="checkbox">Engineering</label>
+        <br>
+        <input id="chechkbox" type="checkbox" name="study" value="Arts">
+          <label for="checkbox">Arts</label>
+        <br>
+        <input id="chechkbox" type="checkbox" name="study" value="Management">
+          <label for="checkbox">Management</label>
+        <br>
+         <label id="textarea">Tell us your story. How you started at where you are now</label>
+        <br>
+                             <br>
+         <textarea id="textarea" name="insturctions" row="5" cols="40"></textarea>
+         <br>
+                                                                      
+         <input id="submit" type="submit" placeholder="submit">
+                                                                  
+        </form>
+</body>
+</html>
